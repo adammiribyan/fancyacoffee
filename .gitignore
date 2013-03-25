@@ -14,3 +14,16 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore VIM swap files
+*.swp
+*.swo
+
+# Ignore SASS cached files
+*.sass-cache
+
+# Ignore database configuration
+config/database.yml
+
+# Ignore uploaded assets
+/public/uploads
